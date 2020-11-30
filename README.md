@@ -11,7 +11,7 @@ GHUSER :- github username
 GHPASS :- github password
 REPO :- link of your private shell bot repository
 ```
-- then go .github/workflows/nd.yml
+- then go .github/workflows/d.yml
 
 - Change username ( By Default Area69Lab ) to Your Username.
 
