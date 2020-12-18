@@ -34,9 +34,9 @@ jobs:
            expect -c " 
            spawn git clone ${{ secrets.REPO }} source
            expect \"Username\"        
-           send \"${{ secrets.GHUSER }}\r\"
+           send \"${{ secrets.GUSER }}\r\"
            expect \"Password\"        
-           send \"${{ secrets.GHPASS }}\r\"
+           send \"${{ secrets.GPASS }}\r\"
            set timeout -1
            catch wait result
            interact"
@@ -65,9 +65,9 @@ jobs:
               expect -c "
               spawn git push -f 
               expect \"Username\"
-              send \"${{ secrets.GHUSER }}\r\"
+              send \"${{ secrets.GUSER }}\r\"
               expect \"Password\"
-              send \"${{ secrets.GHPASS }}\r\"
+              send \"${{ secrets.HPASS }}\r\"
               expect \"main -> main\"
               set timeout -10
               interact"
