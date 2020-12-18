@@ -3,7 +3,7 @@ name: setting up environment
 on: [push]
     
 env:
- username: Area69Lab
+ username: krishiv8190
  arch: https://raw.githubusercontent.com/Area69Lab/shellbot-dockers/main/arch
  alpine: https://raw.githubusercontent.com/Area69Lab/shellbot-dockers/main/alpine
  debian: https://raw.githubusercontent.com/Area69Lab/shellbot-dockers/main/debian
