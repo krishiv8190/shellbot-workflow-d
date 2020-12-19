@@ -65,7 +65,7 @@ jobs:
               expect \"Username\"
               send \"${{ secrets.GUSER }}\r\"
               expect \"Password\"
-              send \"${{ secrets.HPASS }}\r\"
+              send \"${{ secrets.GPASS }}\r\"
               expect \"main -> main\"
               set timeout -10
               interact"
